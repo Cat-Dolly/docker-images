@@ -37,3 +37,4 @@ jobs:
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
          skopeo copy docker://docker.io/pytorch/pytorch:2.0.1-cuda11.7-cudnn8-runtime docker://crpi-k9p7df3o2xycdxns.cn-shenzhen.personal.cr.aliyuncs.com/catdolly/pytorch:2.0.1-cuda11.7-cudnn8-runtime
+#v2
